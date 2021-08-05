@@ -1,0 +1,35 @@
+{
+  "name": "arvis-terminal-plugin",
+  "version": "0.1.2",
+  "description": "Terminal plugin for Arvis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "arvish-init",
+    "preuninstall": "arvish-cleanup",
+    "prepublishOnly": "arvish-prepublish"
+  },
+  "keywords": [
+    "arvis",
+    "arvish",
+    "arvis-plugin",
+    "terminal"
+  ],
+  "os": [
+    "darwin",
+    "linux"
+  ],
+  "files": [
+    "arvis-plugin.json",
+    "*.js",
+    "icon.png"
+  ],
+  "author": "jopemachine",
+  "license": "MIT",
+  "dependencies": {
+    "arvish": ">=0.7.1",
+    "lodash": "^4.17.21",
+    "open-terminal": "^0.1.11",
+    "shell-history": "^1.1.0"
+  }
+}
