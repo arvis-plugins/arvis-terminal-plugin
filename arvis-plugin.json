@@ -3,13 +3,13 @@
     "creator": "jopemachine",
     "name": "arvis-terminal-plugin",
     "enabled": true,
-    "description": "Terminal plugin for Arvis",
+    "description": "Terminal open plugin for Arvis",
     "platform": [
         "darwin",
         "linux"
     ],
     "readme": "",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "webAddress": "https://github.com/arvis-plugins/arvis-terminal-plugin",
     "main": "index.js",
     "defaultIcon": "icon.png",
